@@ -7,27 +7,24 @@ folder('Security') {
 listView('Security/DEV') {
 	description 'DEV Security Jobs'
 	jobs {
-	 name('Build_Security_DEV')
-	 name('Deploy_Security_DEV')
-	 regex('_')
-	}
+	 name('Build-Security-DEV')
+	 name('Deploy-Security-DEV')
+	 }
 }
 	
 listView('Security/QA') {
 	description 'QA Security Jobs'
 	jobs {
-	 name('Build_Security_QA')
-	 name('Deploy_Security_QA')
-	 regex('_')
+	 name('Build-Securit-QA')
+	 name('Deploy-Security-QA')
 	 }
 }
 listView('Security/EDU') {
 	description 'EDU Security Jobs'
 	jobs {
-	 name('Build_Security_EDU')
-	 name('Deploy_Security_EDU')
-	 regex('_')
-	}
+	 name('Build-Security-EDU')
+	 name('Deploy-Security-EDU')
+	 }
 }
 
 
