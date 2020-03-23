@@ -1,8 +1,7 @@
 listView('Security/example') {
-    jobs {
-        name('build')
-        name('test')
-        names('compile', 'deploy')
-        regex('project-A-.+')
+    job('Security/Build_Security_DEV'){
     }
+	job('Security/Deploy_Security_DEV'){
+    }
+
 }
