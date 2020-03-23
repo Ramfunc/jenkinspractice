@@ -1,45 +1,31 @@
-listView('DEV') {
-	description 'Security Jobs'
+	
+folder('Security') {
+	displayName('Security')
+	description('Security Application for Jenkin Jobs')
+}
+
+listView('Security/DEV') {
+	description 'DEV Security Jobs'
 	jobs {
 	 name('Build_Security_DEV')
 	 name('Deploy_Security_DEV')
 	}
 }
 	
-listView('QA') {
-	description 'Security Jobs'
+listView('Security/QA') {
+	description 'QA Security Jobs'
 	jobs {
 	 name('Build_Security_QA')
 	 name('Deploy_Security_QA')
 	 }
 }
-listView('EDU') {
-	description 'Security Jobs'
+listView('Security/EDU') {
+	description 'EDU Security Jobs'
 	jobs {
 	 name('Build_Security_EDU')
 	 name('Deploy_Security_EDU')
 	}
 }
-	
-	
-
-folder('Security') {
-	displayName('Security')
-	description('Security Application for Jenkin Jobs')
-}
 
 
-folder('Security/Security_DEV') {
-	displayName('Security DEV')
-	description('Security DEV Environment Jobs')
-}
 
-folder('Security/Security_QA') {
-	displayName('Security QA')
-	description('Security QA Environment Jobs')
-}
-
-folder('Security/Security_EDU') {
-	displayName('Security EDU')
-	description('Security EDU Environment Jobs')
-}
