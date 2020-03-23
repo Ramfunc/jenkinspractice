@@ -21,14 +21,7 @@ listView('EDU') {
 	}
 }
 	
-	columns {
-		status()
-		weather()
-		name()
-		lastSuccess()
-		lastFailure()
-	}
-}
+	
 
 folder('Security') {
 	displayName('Security')
