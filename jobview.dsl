@@ -25,3 +25,6 @@ folder('ChangeManagement') {
         }
     }
 }
+job('ChangeManagement/Build_ChangeManagement_DEV'){
+
+}
