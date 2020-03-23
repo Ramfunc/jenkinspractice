@@ -5,9 +5,9 @@ folder('Security') {
 
 listView('Security/DEV') {
 	description 'DEV Security Jobs'
-	job('Security/DEV/Build_Security_DEV'){
+	job('Security/Build_Security_DEV'){
     }
-	job('Security/DEV/Deploy_Security_DEV'){
+	job('Security/Deploy_Security_DEV'){
     }
 }
 	
