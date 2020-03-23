@@ -27,6 +27,6 @@ folder('Security_QA') {
 }
 
 folder('Security_EDU') {
-	displayName(Security EDU)
+	displayName('Security EDU')
 	description('Security EDU Environment Jobs')
 }
