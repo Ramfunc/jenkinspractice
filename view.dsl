@@ -9,6 +9,7 @@ listView('Security/DEV') {
 	jobs {
 	 name('Build_Security_DEV')
 	 name('Deploy_Security_DEV')
+	 regex('_')
 	}
 }
 	
@@ -17,6 +18,7 @@ listView('Security/QA') {
 	jobs {
 	 name('Build_Security_QA')
 	 name('Deploy_Security_QA')
+	 regex('_')
 	 }
 }
 listView('Security/EDU') {
@@ -24,6 +26,7 @@ listView('Security/EDU') {
 	jobs {
 	 name('Build_Security_EDU')
 	 name('Deploy_Security_EDU')
+	 regex('_')
 	}
 }
 
