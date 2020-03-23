@@ -5,7 +5,7 @@ folder('ChangeManagement') {
             filterBuildQueue()
             filterExecutors()
             jobs {
-                name('CM_DEV')
+                name('Build CM')
                 regex(/project-A-.+_/)
             }
             jobFilters {
