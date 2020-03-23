@@ -17,12 +17,12 @@ listView('Security') {
 }
 
 folder('Security_DEV') {
-	displayName(Security DEV)
+	displayName('Security DEV')
 	description('Security DEV Environment Jobs')
 }
 
 folder('Security_QA') {
-	displayName(Security QA)
+	displayName('Security QA')
 	description('Security QA Environment Jobs')
 }
 
